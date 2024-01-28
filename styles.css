@@ -1,4 +1,8 @@
 html,
+
+head {
+    background-color: rgb(120%, 56%, 40%);
+}
 body {
     margin: 0;
     padding: 0;
