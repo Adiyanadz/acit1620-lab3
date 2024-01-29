@@ -10,8 +10,14 @@
         #page-container {
             position: relative;
             min-height: 100vh;
+            padding-bottom: 2.5rem
           }
-          
+
+         #footer {
+            position: absolute;
+            bottom: 0;
+
+        }  
         .header2{
             text-align: center;
             background-color: cadetblue;
@@ -19,11 +25,6 @@
             color:white;
         }
         
-        #footer {
-            position: absolute;
-            bottom: 0;
-        }
-
         .footer{
             text-align: center;
             background-color: cadetblue;
@@ -31,15 +32,26 @@
             color: white;
         }
 
-
+        main, form, nav, aside{
+            display: inline-block !important;
+        }
         ul{
+            display:inline-block !important;
             text-align: left;
             list-style-type: none;
             a{color: teal;}
             a{text-decoration: none;}
             
         }
-
+        main{
+            margin-left: 50px;
+        }
+        form{
+            width:1000px;
+        }
+        nav{
+            transform: translateY(-130px);
+        }
     </style>
 </head>
 <body>

@@ -28,6 +28,9 @@
             background-color: cadetblue;
             padding: 10px;
             color: white;
+            bottom: 0;
+            position: static;
+            transform: translatey(450px);
             
         }
         .img {
@@ -39,15 +42,19 @@
         }
         aside{
             float: left;
-            width: 10%;
             height: 10%;
             margin-right: 30px;
             margin-bottom: 100px;
         }
         @media only screen and (max-width: 600px){
-            aside{
-                float: top;
-            }
+            ul {
+                list-style: none;
+              }
+              
+              li {
+                display: inline-block!important;
+                margin-right: 10px; /* add spacing between items */
+              }
         }
         ul{
             text-align: left;
